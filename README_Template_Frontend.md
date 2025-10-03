@@ -15,13 +15,15 @@ Steps for finding feature flag use:
 - Found in @workspace `application.conf` typically under a set called `feature`, `features` or a similar name
 - Analysing their usage under `AppConfig.scala` to find their val/def name
 - Searching this new name for text in files matching it, to analyse how the feature flag is used
-!!!
-!!!This should follow the format below!!!
+- Output this into a similar format of the table found below
 
 | Feature Flags         | Description                 |
 |-----------------------|-----------------------------|
 | feature-flag-name     | Description of feature flag |
 | another-feature-flag  | Description of feature flag |
+
+Repeat these steps for all feature flags, add as many rows as needed
+!!!
 </details>
 
 <details>
