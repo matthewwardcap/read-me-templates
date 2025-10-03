@@ -10,7 +10,12 @@ https://confluence.tools.tax.service.gov.uk/display/DDCW/Catfish+Projects
 <details>
 <summary>Feature Flags</summary>
 !!!These can be found in `application.conf` typically under a set called `feature`, `features` or a similar name!!!
-!!!Information for the description can be found by analysing their usage in @workspace under `AppConfig.scala` to find their val/def name. Then checking `/controllers` for their usage!!!
+!!!
+Steps for finding feature flag use:
+- Found in @workspace `application.conf` typically under a set called `feature`, `features` or a similar name
+- Analysing their usage under `AppConfig.scala` to find their val/def name
+- Searching this new name for text in files matching it, to analyse how the feature flag is used
+!!!
 !!!This should follow the format below!!!
 
 | Feature Flags         | Description                 |
