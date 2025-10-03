@@ -57,6 +57,10 @@ Links to related test repositories:
 </details>
 
 <details>
+<summary>API's</summary>
+</details>
+
+<details>
 <summary>Endpoints</summary>
 
 !!!You can generate the list of endpoints using `.route` files typically found under `/conf`!!!
@@ -74,6 +78,8 @@ List of available API endpoints:
 <details>
 <summary>Example Requests/Responses</summary>
 
+!!!This should follow the format below!!!
+
 ### Sample Request 1
 ```json
 {
@@ -87,4 +93,10 @@ List of available API endpoints:
   "example": "response body"
 }
 ```
+</details>
+
+<details>
+<summary>cURL/Bruno</summary>
+!!!If there are any relevant cURL or Bruno collections, provide links to them here!!!
+!!!cURL commands for testing this service!!!
 </details>
