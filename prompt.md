@@ -1,6 +1,6 @@
 Using `README_Template_Frontend.md` rewrite `README.md`. Pay close attention to any prompts marked with !!!
 
-When using the prompts found in the template, check for any relevant files it mentions found in the folder base folder of the service-name
+When using the prompts found within the README_Template, check for any relevant files it mentions found in the @workspace folder/base folder of the service-name
 
 If you can't find any information for a section/topic note it as such wrapping the text in *** ***
 
