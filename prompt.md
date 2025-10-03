@@ -4,6 +4,6 @@ When using the prompts found within the README_Template, check for any relevant 
 
 If you can't find any information for a section/topic note it as such wrapping the text in *** ***
 
-You should NOT create any new sections that aren't listed under the template
+You should NOT create any new sections that aren't listed under the template. Any information from the old `README.md` that doesn't fit into the template should be added to a section called `Manual Check - Other` at the end of the new `README_NEW.md`
 
 Once you have completed it, output the text in one cohesive .md output labelled as `README_NEW.md`
